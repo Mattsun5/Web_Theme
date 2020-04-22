@@ -1,0 +1,329 @@
+html{
+    padding: 0px;
+}
+body {
+    background-color: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+nav {
+    width: 100%;
+    height: 80px;
+    display: inline-flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 1px solid darkgray;
+}
+.menuIcon{
+    display: none;
+}
+#logo {
+    font-size: 50px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+#logo p{
+    font-size: 20px;
+    margin: 0px;
+}
+.nav {
+    justify-self: right;
+    padding-right: 20px;
+    margin-right: 150px;
+}
+.nav-icon{
+    display: none;
+    color: green;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: large;
+}
+.nav ul li:hover{
+    border-bottom: 2px solid green;
+    font-weight: bold;
+}
+.active{
+    border-bottom: 2px solid green;
+    font-weight: bold;
+}
+#banner{
+    background-color: green;
+}
+#banner-text{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+    line-height: 30px;
+    color: #fff;
+    text-shadow: 2px 2px black;
+}
+#banner-text h1{
+    font-size: 4em;
+    line-height: 50px;
+}
+#banner-text h3{
+    text-shadow: none;
+}
+#banner-text h3{
+    margin-bottom: 100px;
+}
+#banner-text a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    text-shadow: none;
+    padding: 7px 17px;
+    border-radius: 5px;
+    margin: 35px;
+}
+#banner-text a:hover{
+    background-color: green;
+    border-color: green;
+}
+#main-content-intro{
+    height: 190px;
+    width: 100%;
+    line-height: 20px;
+    padding-top: 25px;
+    background-color: green;
+    border: 1px solid green; 
+    border-right: none;
+    font-size: 1.4em; 
+    color: #fff;
+}
+.section{
+    height: 100%;
+    margin-bottom: 70px;
+    padding-top: 30px;
+}
+.section-header{
+    height: 200px;
+    line-height: 20px;
+    padding-top: 50px;
+}
+.header{
+    font-size: 3em;
+}
+.line{
+    border: 1px solid green;
+    border-radius: 4px;
+    width: 220px;
+    background: green;
+    height: 2px;
+}
+.section-items{
+    max-width: 100%;
+    display: inline;
+    justify-content: center;
+}
+.item{
+    max-width: 340px;
+    margin: 0px 40px;
+    display: inline-flex;
+}
+.customer{
+    max-width: 100%;
+    display: inline;
+    justify-content: center;
+}
+.customer-item{
+    max-width: 300px;
+    height: 305px;
+    margin: 10px;
+    display: inline-flex;
+}
+.customer-detail{
+    height: 80px;
+    line-height: 10px;
+    background-color: green;
+    color: #fff;
+    margin: 10px 0px;
+    border:1px solid green;
+    margin-top: 0px;
+}
+.team{
+    min-width: 350px;
+    margin: 0px 20px;
+    display: inline-flex;
+    line-height: 10px;
+}
+.team .pic{
+    opacity: 0.8;
+}
+.team .pic:hover{
+    opacity: 1;
+}
+#quote-content{
+    min-height: 100px;
+    width: 100%;
+    margin: 40px 0px;
+    background-color: green;
+    border: 1px solid green; 
+    border-right: none;
+    font-size: 1.4em; 
+    color: #fff;
+}
+form input, textarea{
+    border-radius: 15px;
+    border-color: green;
+    margin: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1em;
+}
+.message-box {
+    background: #fff;
+    height: 60px;
+    line-height: 60px;
+    text-align: left;
+    font-size: 14px;
+    padding: 0 35px;
+    margin-bottom: 30px;
+    width: 50%;
+    height: 220px;
+}
+button{
+    border-radius: 10px;
+    border-color: green;
+    background: green;
+    color: white;
+    margin: 5px;
+    padding: 10px 50px;
+    font-size: 1em;
+}
+button:hover{
+    background: white;
+    color: green;
+}
+
+footer{
+    height: 300px;
+    color: white;
+}
+#social-container{
+    background-color: #040E18;
+    height: 220px;
+    border: 1px solid #040E18;
+    padding-top: 30px;
+}
+#social-container p{
+    font-size: 1.5em;
+}
+#social-container ul li{
+    display: inline-flex;
+}
+#social-container ul li a{
+    background: #2e3537;
+    border: 1px solid #2e3537;
+    color: #aaa;
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+    height: 35px;
+    width: 35px;
+    padding:  10px;
+    padding-top: 20px;
+}
+#copyright-container{
+    font-size: 1em;
+    padding-top: 20px;
+    background-color: #2C3E50;
+    height: 80px;
+    border: 1px solid #2C3E50;
+    line-height: 10px;
+}
+#copyright-container span{
+    color: green;
+}
+
+
+@media (max-width:949px){
+    body{
+        font-size: 13px;
+    }
+    #banner-text{
+        top: 140px;
+        left: 20px;
+    }
+    nav {
+        justify-content: flex-start;
+    }
+    .nav-icon{
+        display: inline;
+        margin-right: 3px;
+    }
+    .nav {
+        position: absolute;
+        top: 100%;
+        background: #fff;
+        padding: 0px;
+        padding-right: 25px; height: 0; overflow: hidden;
+        border: 1px solid grey;
+        border-top: none;
+    }
+    .nav ul li{
+        display: block;
+        padding: 10px;
+    }
+    .nav ul li:hover{
+        background: grey;
+        border: none;
+    }
+    .menuIcon{
+        display: inline;
+        margin-top: 30px;
+        margin-left: 20px;
+        cursor: pointer;
+        padding:5px;
+        padding-bottom: 0px;
+        border-radius: 3px;
+    }
+    .nav-open{
+        height: auto;
+    }
+    .menuIcon:hover{
+        background: grey;
+    }
+    #logo {
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    #main-content-intro{
+        padding-top: 13px;
+    }
+    #main-content-intro h1{
+        line-height: 38px;
+    }
+}
+@media (max-width:340px){
+    body{
+        font-size: 13px;
+    }
+    body h1{
+        line-height: 28px;
+        font-size: 23px;
+    }
+    #banner-text{
+        top: 100px;
+        left: 10px;
+        line-height: 3px;
+    }
+    .customer-item{
+        margin: 10px 0px;
+        display: inline-flex;
+    }
+    .customer-detail{
+        margin: 10px 0px;
+        border:1px solid green;
+        margin-top: 0px;
+    }
+}
